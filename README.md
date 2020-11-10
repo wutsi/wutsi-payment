@@ -1,7 +1,6 @@
-`wutsi-payment` is an API for online payments
+`wutsi-payment` is an API for performing online payments via CreditCard, MobileMoney
 
-
-![](https://github.com/wutsi/wutsi-core/workflows/build/badge.svg)
+![](https://github.com/wutsi/wutsi-payment/workflows/build/badge.svg)
 ![](https://img.shields.io/badge/jdk-1.8-brightgreen.svg)
 ![](https://img.shields.io/badge/language-kotlin-blue.svg)
 ![](https://img.shields.io/badge/maven-3.6+-blue)
@@ -22,3 +21,10 @@
 Package available [here](https://github.com/wutsi/wutsi-payment/packages)
 
 # Features
+- Transfer money to a person
+- Receive a payment
+- Verify a person's account
+
+# Implementation of the API
+- [MTN MoMo](https://github.com/wutsi/wutsi-payment-mtn)
+

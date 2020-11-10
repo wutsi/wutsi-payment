@@ -5,6 +5,6 @@ data class TransferRequest (
         val amount: Double,
         val currency: String,
         val description: String? = null,
-        val customer: Customer = Customer(),
+        val party: Party = Party(),
         val wallet: Wallet
 )
