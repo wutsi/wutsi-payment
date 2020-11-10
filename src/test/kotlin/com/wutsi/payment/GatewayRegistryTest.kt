@@ -28,8 +28,8 @@ class GatewayRegistryTest {
             fail()
         } catch(ex: PaymentException){
             assertEquals(ErrorCode.UNSUPPORTED_GATEWAY, ex.error.code)
-            assertNull(ex.error.referenceGuid)
-            assertNull(ex.error.supplierCode)
+            assertNull(ex.error.transactionId)
+            assertNull(ex.error.supplierErrorCode)
         }
     }
 }

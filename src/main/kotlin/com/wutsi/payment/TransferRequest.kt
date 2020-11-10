@@ -1,7 +1,7 @@
 package com.wutsi.payment
 
 data class TransferRequest (
-        val referenceGuid: String,
+        val externalId: String,
         val amount: Double,
         val currency: String,
         val description: String? = null,
